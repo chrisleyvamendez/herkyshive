@@ -1,4 +1,6 @@
 :root {
+
+  color-scheme:light-dark;
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -103,5 +105,15 @@ a {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+    background: #102a43;
   }
+  .darkmode  {
+    background: #102a43;
+    color: white;
+  }
+}
+
+.dark {
+  background: #102a43;
+  color: white;
 }
